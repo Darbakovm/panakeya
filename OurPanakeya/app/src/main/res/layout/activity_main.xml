@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="183dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom"
+        android:textAppearance="@style/Welcom" />
+
+
+    <TextView
+        android:id="@+id/welcome_two"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="391dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom_two"
+        android:textAppearance="@style/welcom_two" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_below="@id/welcome_two"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/playfairdisplay_regular"
+
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="6dp"
+            android:text="@string/btnSignIn"
+            android:background="@drawable/buttom"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="@font/playfairdisplay_regular"
+
+            android:layout_marginTop="40dp"
+
+            android:layout_weight="1"
+            android:text="@string/btnRegister"
+            android:background="@drawable/buttom"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OurPanakeya</string>
+    <string name="title_activity_chat">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Welcom">Добро пожаловать!</string>
+    <string name="Welcom_two">В приложение panakea</string>
+    <string name="mail_input">Email</string>
+    <string name="password_input">Пароль</string>
+    <string name="foregt_password">Забыли пароль?</string>
+    <string name="go">ВОЙТИ</string>
+    <string name="registr_link">Нет аккаунта?</string>
+    <string name="registr_link_">Зарегистрируйтесь</string>
+    <string name="reg">Регистрация</string>
+    <string name="reg_1">Заполните все поля, чтобы создать аккаунт</string>
+    <string name="user">Имя Фамилия</string>
+    <string name="rol">Роль</string>
+    <string name="password_two">Пароль</string>
+    <string name="vxod">Уже есть аккаунт?</string>
+    <string name="vxod_1">Войдите</string>
+    <string name="sozdat">Создать</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироватся</string>
+
+</resources>

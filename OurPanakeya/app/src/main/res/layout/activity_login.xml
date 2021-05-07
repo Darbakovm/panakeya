@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/roor_element"
+    tools:context=".LoginActivity"
+    app:cardElevation="10dp">
+
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:text="@string/reg"
+        android:textAppearance="@style/Welcom"
+        android:textColor="@color/purpul" />
+
+    <TextView
+        android:id="@+id/reg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:text="@string/reg_1"
+        android:textAppearance="@style/welcom_two"
+        android:layout_below="@+id/reg"
+        android:textColor="@color/purpul"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <EditText
+            android:id="@+id/user_mail_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_1"
+            android:background="@drawable/input_welcome"
+            android:padding="15dp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="21dp"
+            android:hint="@string/user"
+            android:textSize="14sp"
+            android:textColorHint="@color/purpui_3"
+            android:textColor="@color/purpul_2"
+            android:inputType="text"
+
+            />
+
+    <EditText
+        android:id="@+id/mail_mail_input"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_mail_input"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:hint="@string/mail_input"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/rol_mail_input"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail_mail_input"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:hint="@string/rol"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password_mail_input"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rol_mail_input"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:hint="@string/password_two"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/password_mail_input"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/vxod_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vxod"
+            android:textColor="@color/purpul_2"
+            android:textSize="14sp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_marginLeft="100dp"
+            />
+        <TextView
+            android:id="@+id/vxod_registr_link_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vxod_1"
+            android:textColor="@color/purpul"
+            android:textSize="14sp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

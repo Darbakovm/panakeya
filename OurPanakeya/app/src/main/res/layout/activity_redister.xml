@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedisterActivity">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="192dp"
+        android:layout_height="229dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/logo"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom"
+        android:textAppearance="@style/Welcom" />
+
+
+    <TextView
+        android:id="@+id/welcome_two"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="391dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom_two"
+        android:textAppearance="@style/welcom_two" />
+
+    <EditText
+        android:id="@+id/login_mail_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_two"
+        android:background="@drawable/input_welcome"
+        android:padding="15dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="21dp"
+        android:hint="@string/mail_input"
+        android:textSize="14sp"
+        android:textColorHint="@color/purpui_3"
+        android:textColor="@color/purpul_2"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <EditText
+        android:id="@+id/loginPasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_mail_input"
+        android:background="@drawable/input_welcome"
+        android:padding="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:hint="@string/password_input"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/purpui_3"
+        android:textColor="@color/purpul_2"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/liner_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/loginPasswordInput"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:id="@+id/foregt_password_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:text="@string/foregt_password"
+            android:textColor="@color/purpul_2"
+            android:textSize="13sp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="176dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:layout_marginLeft="122dp"
+        android:layout_below="@+id/liner_check"
+        android:layout_marginRight="122dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/buttom"
+        android:text="@string/go"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/registr_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registr_link"
+            android:textColor="@color/purpul_2"
+            android:textSize="14sp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_marginLeft="100dp"
+            />
+        <TextView
+            android:id="@+id/registrlinkunput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registr_link_"
+            android:textColor="@color/purpul"
+            android:textSize="14sp"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
